@@ -1,4 +1,4 @@
-import type { CommentResolvers } from './../../types.generated';
+import type { CommentResolvers } from '../../types.generated';
 
 export const Comment: CommentResolvers = {
   link(parent, _arg, context) {

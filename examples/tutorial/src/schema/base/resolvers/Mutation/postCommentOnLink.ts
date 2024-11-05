@@ -1,7 +1,7 @@
 import { GraphQLError } from 'graphql';
 import { Prisma } from '@prisma/client';
 import { parseIntSafe } from '../../../../utils';
-import type { MutationResolvers } from './../../../types.generated';
+import type { MutationResolvers } from '../../../types.generated';
 
 export const postCommentOnLink: NonNullable<MutationResolvers['postCommentOnLink']> = async (
   _parent,

@@ -1,4 +1,4 @@
-import type { QueryResolvers } from './../../../types.generated';
+import type { QueryResolvers } from '../../../types.generated';
 
 export const link: NonNullable<QueryResolvers['link']> = async (_parent, args, context) => {
   return context.prisma.link.findUnique({

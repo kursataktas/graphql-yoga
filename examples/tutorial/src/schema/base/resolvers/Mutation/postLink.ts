@@ -1,4 +1,4 @@
-import type { MutationResolvers } from './../../../types.generated';
+import type { MutationResolvers } from '../../../types.generated';
 
 export const postLink: NonNullable<MutationResolvers['postLink']> = async (
   _parent,
